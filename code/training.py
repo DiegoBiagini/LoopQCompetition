@@ -83,8 +83,8 @@ if __name__ == "__main__":
     audio_path = Path(sys.argv[3])
 
     if mode == "resume":
-        if len(sys.argv < 5):
-            model_weights_path = "/saved_models/MMFUSION_train/MMFUSION.tar"
+        if len(sys.argv) < 5:
+            model_weights_path = "saved_models/MMFUSION_train/MMFUSION.tar"
         else:
             model_weights_path = Path(sys.argv[4])
 

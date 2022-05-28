@@ -69,12 +69,13 @@ def evaluate_challenge(csv_path, audio_path, model_weights_path):
         raw_data = load_file(filepath)
         out_emotion = inference(raw_data, inference_pipeline, inference_model, device)
 
-        # Update the dataframe
         df.at[idx, "predicted_emotion"] = out_emotion
 
         del raw_data
         del out_emotion
         torch.cuda.empty_cache()
+        if idx%100 == 0:
+            print(f"Evaluated samples:{idx}/{len(df)}")
 
     # Save the results 
     out_path = csv_path.stem + "_out.csv"
