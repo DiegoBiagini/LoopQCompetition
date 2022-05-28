@@ -12,9 +12,11 @@ This is the problem that will be solved in the first challenge.
 ## Other info
 Main libraries:  
 - pytorch
+- sklearn
 - huggingface transformers
 - librosa
 - captum  
+
 For some linux distributions libsndfile1 is needed
 
 ## Project structure
