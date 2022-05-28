@@ -87,6 +87,6 @@ To perform **predictions** on a test file
 
     python eval_challenge.py <csv_path> <audio_path>
 
-Model weights are supposed to be in "saved_models/MMFUSION_train/MMFUSION.tar", if not found download them from Azure to that location.  
+Model weights are supposed to be in "saved_models/MMFUSION_train/MMFUSION.tar", if not found they are downloaded from Azure to that location.  
 The link to the weights is saved in the "code/weights_url.txt" file, not provided in this repository.  
 The predictions are saved in another csv file with the same name as the one given in input plus a suffix.
