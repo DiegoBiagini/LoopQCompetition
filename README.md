@@ -22,36 +22,36 @@ For some linux distributions libsndfile1 is needed
 	.
 	├── code
 	│   │
-	│   ├── analysis.ipynb            -> Notebook for preliminary data analysis/exploration
-	│   ├── evaluation.ipynb		  -> Notebook to visualize training and evaluation on validation set
-	│   ├── interpret.ipynb			  -> Notebook which implements interpretability methods
+	│   ├── analysis.ipynb          -> Notebook for preliminary data analysis/exploration
+	│   ├── evaluation.ipynb	-> Notebook to visualize training and evaluation on validation set
+	│   ├── interpret.ipynb		-> Notebook which implements interpretability methods
 	│   │
 	│   ├── data_utils.py
-	│   ├── eval_challenge.py		  -> Main file to perform evaluation of the chosen model on a given test set
-	│   ├── training.py				  -> Main file to restart/resume training of the chosen model
+	│   ├── eval_challenge.py	-> Main file to perform evaluation of the chosen model on a given test set
+	│   ├── training.py		-> Main file to restart/resume training of the chosen model
 	│   │
-	│   ├── MMFUSION				  -> Source files for the chosen model
+	│   ├── MMFUSION		-> Source files for the chosen model
 	│   │   ├── data.py
 	│   │   ├── model.py
 	│   │   └── train.py
 	│   │
-	│   ├── other_models			  -> Source files of the other models
+	│   ├── other_models		-> Source files of the other models
 	│   │   ├── CNNATT
 	│   │   ├── CNNLSTM
 	│   │   ├── FCMFCC
 	│   │   └── HUBERTFT
 	│   │
-	│   ├── saved_models			  -> Folder containing the weights of the models
+	│   ├── saved_models		-> Folder containing the weights of the models
 	│   │   └── MMFUSION_train
 	│   │       └── weights_go_here	  -> The weights of the model downloaded from Azure will be saved here
 	│   │
-	│   ├── datasets				  -> Sample location for any dataset
+	│   ├── datasets		-> Sample location for any dataset
 	│   │   └── challengeA_data
 	│   │       ├── csv_file_goes_here
 	│   │       └── test
 	│   │           └── audio_files_go_here
 	│   │
-	│   └── weights_url.txt			  -> File containing the Azure url to the model weights to save them locally
+	│   └── weights_url.txt		-> File containing the Azure url to the model weights to save them locally
 	│
 	├── Diego,Biagini_Overview.pdf 		-> Report/Overview of the solution
 	├── LICENSE
