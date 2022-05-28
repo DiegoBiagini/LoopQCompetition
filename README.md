@@ -58,7 +58,7 @@ For some linux distributions libsndfile1 is needed
 	├── README.md
 	└── requirements.txt
 
-## Execution
+## Installation and Execution
 First of all install the required libraries using pip and the requirements file.  
 Using a conda or any other virtual enviroment is suggested.
 
@@ -85,6 +85,6 @@ To perform **predictions** on a test file
 
     python eval_challenge.py <csv_path> <audio_path>
 
-Model weights are supposed to be in "saved_models/MMFUSION_train/MMFUSION.tar", if not found download them from Azure to that location.
-The link to the weights is saved in the "code/weights_url.txt" file, not provided in this repository
+Model weights are supposed to be in "saved_models/MMFUSION_train/MMFUSION.tar", if not found download them from Azure to that location.  
+The link to the weights is saved in the "code/weights_url.txt" file, not provided in this repository.  
 The predictions are saved in another csv file with the same name as the one given in input plus a suffix.
