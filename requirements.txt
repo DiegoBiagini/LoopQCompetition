@@ -1,0 +1,11 @@
+pandas
+librosa
+torch
+torchvision
+torchaudio
+matplotlib
+sklearn
+transformers
+captum
+requests
+clint
