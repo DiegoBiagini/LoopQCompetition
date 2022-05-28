@@ -14,7 +14,7 @@ Main libraries:
 - pytorch
 - huggingface transformers
 - librosa
-- captum
+- captum  
 For some linux distributions libsndfile1 is needed
 
 ## Project structure
